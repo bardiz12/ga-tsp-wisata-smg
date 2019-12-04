@@ -1,0 +1,38 @@
+-7.038534°,110.350357°, Goa Kreo
+-6.970081°,110.286952°, Taman Margasatwa Semarang
+-6.983932°,110.446422°, Mesjid Agung Jawa Tengah
+-7.025864°,110.407517°, Kolam renang Jatidiri
+-6.969730°,110.424761°, Pasar Johar Semarang
+-6.988058°,110.424244°, Citraland Mall
+-7.006365°,110.431943°, Java Mall
+-7.002985°,110.424861°, Gedung Wanita
+-6.979215°,110.378067°, Bandara Ahmad Yani Semarang
+-6.985374°,110.383839°, Museum Ronggowarsito
+-6.962061°,110.390463°, PRPP
+-6.950724°,110.390471°, Marina Pantai Semarang
+-6.984260°,110.410258°, Lawang Sewu Tugu Muda
+-6.982748°,110.411643°, DP Mall
+-6.978692°,110.415793°, Paragon Mall
+-6.981213°,110.416530°, Thamrin Square
+-6.984984°,110.437801°, Pasar Burung Karimata
+-6.990290°,110.422988°, Simpanglima
+-6.986531°,110.413165°, Bandeng Presto – Oleh2 Semarang
+-6.984246°,110.409460°, Tugu Muda, Museum Mandala
+-7.001628°,110.423964°, Wonderia Arena mainan
+-7.002671°,110.424519°, Taman Budaya Raden Saleh
+-6.968207°,110.427518°, Gereja Blenduk & Kota Lama
+-6.968048°,110.430095°, Wingko Babat Toko
+-6.986265°,110.345921°, Taman Lele
+-6.954470°,110.360247°, Maron Pantai
+-6.961012°,110.388043°, Maerokoco, Taman Mini
+-7.038585°,110.421315°, Gardu Pandang Gombel
+-7.068886°,110.411248°, Museum Jamu Jago
+-6.972332°,110.423157°, Mesjid Agung Kauman – Pasar Johar
+-6.966257°,110.431220°, Gereja Jl. Ronggowarsito
+-6.964839°,110.428176°, Stasiun Tawang – Polder
+-6.995057°,110.398875°, Sam Poo Kong Klenteng
+-6.974111°,110.427697°, Tay Kak Sie Klenteng Gang Lombok, pecinan
+-7.087023°,110.409142°, Vihara Mahavira
+-6.998425°,110.410736°, Pura Agung Giri Natha
+-7.012531°,110.481478°, Gelanggang Manunggal Jati
+-7.026201°,110.409623°, Gelanggang Jati Diri
