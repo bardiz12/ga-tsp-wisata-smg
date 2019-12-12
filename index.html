@@ -20,7 +20,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script language="javascript" type="text/javascript" src="config.js"></script>
-    <script src="/coords.js"></script>
+    <script src="coords.js"></script>
 
 </head>
 
@@ -65,8 +65,8 @@
             $("#form").on('submit',(ev)=>{
                 ev.preventDefault();
                 var formData = $("#form").serialize();
-                window.location.href = "/app.html#!/"+formData;
-            } )
+                window.location.href = "app.html#!/"+formData;
+            })
         });
     </script>
 </body>

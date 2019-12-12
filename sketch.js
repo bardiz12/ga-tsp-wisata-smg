@@ -25,6 +25,27 @@ function updateRoute(pops){
     firstpolyline.addTo(mymap);
 }
 
+function updateTrialRoute(pops){
+  order = pops.order;
+  var pointList = [];
+  for (let i = 0; i < order.length; i++) {
+    var to_add = new L.LatLng(coords[order[i]].long, coords[order[i]].lat);
+    pointList.push(to_add);
+  }
+  trial.remove();
+  trial = new L.Polyline(pointList, {
+    color: 'black',
+    weight: 3,
+    opacity: 0.3,
+    smoothFactor: 1
+  });
+  trial.addTo(mymap);
+}
+
+function removeTrialRoute(){
+  trial.remove();
+}
+
 function updateRouteWorst(pops){
   order = pops.order;
   var pointList = [];
@@ -60,7 +81,7 @@ function setup() {
   for (var i = 0; i < popTotal; i++) {
     population[i] = new DNA(totalCities);
     addToLog((i + 1) + ". " + population[i].order);
-    print(population[i].order);
+    //print(population[i].order);
   }
   addToLog("\n\n");
 
@@ -78,6 +99,7 @@ function draw() {
   for (var i = 0; i < population.length; i++) {
     var d = population[i].calcDistance();
     addToLog("Pop# " + (i + 1) + ": " + population[i].order + " d : " + d);
+    updateTrialRoute(population[i]);
     if (d < recordDistance) {
       recordDistance = d;
       config.bestPath = population[i];
@@ -142,6 +164,7 @@ function draw() {
     translate(0, height / 2);
     line(0, 0, width, 0);
     config.bestPath.show();
+    removeTrialRoute();
     noLoop();
   } else {
     bestNow.show();
